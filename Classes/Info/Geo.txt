@@ -1,0 +1,3 @@
+﻿ID
+PARENTID
+GEO_NAME

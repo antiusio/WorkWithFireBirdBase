@@ -1,0 +1,16 @@
+﻿<Window x:Class="FirebirdExperiment.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FirebirdExperiment"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="{Binding CountGeo, UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"  HorizontalAlignment="Left" Margin="120,36,0,0" VerticalAlignment="Top" Height="37" Width="178"/>
+        <Label Content="{Binding IndexGeo, UpdateSourceTrigger=PropertyChanged}"  HorizontalAlignment="Left" Margin="120,78,0,0" VerticalAlignment="Top" Height="43" Width="178"/>
+        <Label Content="{Binding TextGeo, UpdateSourceTrigger=PropertyChanged}"  HorizontalAlignment="Left" Margin="120,126,0,0" VerticalAlignment="Top" Height="36" Width="178"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="606,198,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click"/>
+
+    </Grid>
+</Window>

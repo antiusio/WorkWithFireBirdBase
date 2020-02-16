@@ -1,0 +1,3 @@
+﻿REGION_ID                      
+CID                            
+REGION_NAME
